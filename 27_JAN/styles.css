@@ -1,0 +1,16 @@
+.container {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 800px;
+  margin: auto;
+  margin-top: 25%;
+  font-family: helvetica;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
