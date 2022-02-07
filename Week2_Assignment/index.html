@@ -1,0 +1,27 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400&display=swap"
+    rel="stylesheet"
+  />
+  <title>ToDo App</title>
+</head>
+<body>
+  <div class="todo-container">
+    <div class="todo-header">
+      <p class="app-name">JUST TODO IT</p>
+    </div>
+    <div class="container-body">
+      <div class="todo-item">
+        <ul id="list"></ul>
+      </div>
+      <div class="add-item">
+        <input type="text" placeholder="add item" id="new-item" />
+        <input type="button" value="+" id="add-button" onclick="addItem()" />
+      </div>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
