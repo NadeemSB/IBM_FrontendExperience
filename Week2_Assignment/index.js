@@ -1,5 +1,3 @@
-// Shows current time
-
 let item = document.getElementById("new-item");
 let list = document.getElementById("list");
 
